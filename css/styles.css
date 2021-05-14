@@ -96,6 +96,10 @@ header .highlight, header .current a{
  font-weight:bold;
 }
 
+/* videoPlayer*/
+
+
+
 /*showcase */
 #showcase{
   min-height: 400px;
@@ -232,7 +236,7 @@ footer{
   /* applies to screens wider than 499px */
 
   body {
-    background: #cfc;
+   background: #cfc;
   }
 }
 
