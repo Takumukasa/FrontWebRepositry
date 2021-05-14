@@ -97,7 +97,13 @@ header .highlight, header .current a{
 }
 
 /* videoPlayer*/
+#VideoPlayer{
+  float:left;
+  width: 100%;
+  padding: 10px;
 
+
+}
 
 
 /*showcase */
