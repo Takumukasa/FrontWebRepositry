@@ -198,7 +198,10 @@ footer{
   header nav,
   header nav li,
   #BlogFeeds h1,
-  #BlogFeeds form{
+  #BlogFeeds form,
+  #boxes .box
+  #article#main-col
+  aside#sidebar{
     float:none;
     text-allign:center;
     width:100%;
@@ -212,12 +215,12 @@ footer{
     margin-top: 40px;
   }
 
-  #BlogFeeds button{
+  #BlogFeeds button, .quote button{
     display: block;
     width: 100%;
   }
 
-  #BlogFeeds form input[type="email"]{
+  #BlogFeeds form input[type="email"], .quote input, .quote textarea{
     width: 100%
     margin-bottom:5px;
   }
