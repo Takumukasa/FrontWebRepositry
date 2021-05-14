@@ -43,7 +43,7 @@ ul{
   background: #35424a;
   color: #ffffff;
   margin-top: 10px;
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
 
 }
 
@@ -167,6 +167,15 @@ aside#sidebar{
 article#main-col{
   float: left;
   width: 65%;
+}
+
+/*Games*/
+ul#Games li{
+  list-style: none;
+  padding: 20px;
+  border: #cccccc solid 1px;
+  margin-bottom: 5px;
+  background: #e6e6e6;
 }
 
 footer{
