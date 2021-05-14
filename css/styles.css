@@ -193,6 +193,36 @@ footer{
 
 /* TABLET STYLES */
 
+@media (max-width: 768px) {
+  header @branding,
+  header nav,
+  header nav li,
+  #BlogFeeds h1,
+  #BlogFeeds form{
+    float:none;
+    text-allign:center;
+    width:100%;
+  }
+
+  header{
+    padding-bottom: 20px;
+  }
+
+  #showcase h1{
+    margin-top: 40px;
+  }
+
+  #BlogFeeds button{
+    display: block;
+    width: 100%;
+  }
+
+  #BlogFeeds form input[type="email"]{
+    width: 100%
+    margin-bottom:5px;
+  }
+
+}
 
 @media screen and (min-width: 500px) {
 
